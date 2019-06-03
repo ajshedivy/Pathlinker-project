@@ -1,0 +1,5 @@
+#ksp	path_length	path
+1	1.00000e+00	G|F|E
+2	1.50000e+00	G|C|F|E
+3	1.50000e+00	G|F|A|E
+4	2.00000e+00	G|C|F|A|E
