@@ -1,8 +1,8 @@
 #!/usr/bin/env/bash 
 
-#attepts to activate pathlinker_env in order to run pathlinker
+#attempts to activate pathlinker_env in order to run pathlinker
 
-#if env not configurered, then pathlinker_env will be created 
+#if env not configured, then pathlinker_env will be created 
 
 conda init bash
 
