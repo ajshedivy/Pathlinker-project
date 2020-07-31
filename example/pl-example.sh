@@ -6,12 +6,12 @@
 
 #conda init bash
 eval "$(conda shell.bash hook)"
-conda activate pathlinker_env
+conda activate path-linker
 
 if [ $? -ne 0 ]; then
-	echo creating pathlinker_env environment
-	conda env create -f environment.yml
-	conda activate pathlinker_env
+	echo creating path-linker environment
+	conda env create -f minimal_env.yml
+	conda activate path-linker
 fi
 
 #run PathLinker
